@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>냉장고 관리 앱</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>냉장고 재료 관리</h1>
+
+  <div class="input-area">
+    <input id="itemName" type="text" placeholder="식재료 이름" />
+    <input id="expiryDate" type="date" />
+    <button id="addBtn">추가</button>
+  </div>
+
+  <ul id="itemList"></ul>
+
+  <script type="module" src="firebase.js"></script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
