@@ -6,7 +6,7 @@ import {
   doc
 } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
 
-import { db } from "./firebase.js";
+import { db } from "./firebaseApp.js";
 
 // UI 요소
 const itemName = document.getElementById("itemName");
